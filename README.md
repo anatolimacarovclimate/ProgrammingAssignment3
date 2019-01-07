@@ -33,7 +33,7 @@ Analysis does:
 2. Merges the training and the test sets to create one data set.
 3. Reads features and activity labels files.
 4. Uses descriptive features names to name the featured measurements in the main data set by column position.
-5. Extracts only the measurements on the mean and standard deviation for each measurement from the main data set.
+5. Extracts only the measurements on the mean and standard deviation (avoid meanFreq) for each measurement from the main data set.
 6. Merges the subjects set to the main data set.
 7. Uses descriptive activity names to name the activities in the activity data set by ID.
 8. Merges the activity set to the main data set.

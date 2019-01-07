@@ -1,6 +1,7 @@
-DATA DICTIONARY:
-==================================================================
+## DATA DICTIONARY:
+===========================
 
+```{r}
 "activity"      18
         Activity label which performed by one person.
                 WALKING
@@ -204,3 +205,4 @@ These variables present average value for each activity and each subject. From t
         Body acceleration magnitude mean value of the frequency domain XYZ signals.	
                         -1.0..0.0..1.0 Double of signal unit.
         
+```

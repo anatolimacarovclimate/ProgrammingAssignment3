@@ -17,12 +17,13 @@ The dataset includes the following files:
 
 How run script: 
 =======================
-1. Download a dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the work derictory.
-2. Copy the 'run_analysis.R' script to the 'UCI HAR Dataset' derictory. 
-3. Run the script and wait few seconds to finish processing the dataset.
+1. Download a dataset from 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the work directory.
+2. Copy the 'run_analysis.R' script to the 'UCI HAR Dataset' directory. 
+3. Run the script and wait few seconds to finish processing the data set.
 4. Open script in the RStudio or R application.
 5. Before to execute the script please install the 'dplyr' library.
-6. When Analysis FINISHed the dataset derictory contains the 'tidy_data_mean_std.txt' file.
+6. When Analysis FINISHed the data set directory contains the 'tidy_data_mean_std.txt' file.
 7. Read the file: tdms <- read.table("tidy_data_mean_std.txt", header = TRUE, sep = "")
 8. Now you can analysis tdms data.
 
@@ -37,7 +38,7 @@ Analysis does:
 7. Uses descriptive activity names to name the activities in the activity data set by ID.
 8. Merges the activity set to the main data set.
 9. From the main data set, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-10. Saves tidy data set to the 'tidy_data_mean_std.txt' file.
+10. Saves the tidy data set to the 'tidy_data_mean_std.txt' file.
 11. Removes all temporary data.
 
 License:

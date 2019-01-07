@@ -18,13 +18,27 @@ The dataset includes the following files:
 How run script: 
 =======================
 1. Download a dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the work derictory.
-2. Copy the 'run_analysis.R' script to the 'UCI HAR Dataset' derictory.
-3.1 Open script in the RStudio or R application.
-3.2 Before to execute the script please install the 'dplyr' library. 
-4. Run the script and wait few seconds to finish processing the dataset.
-5. When Analysis FINISHed the dataset derictory contains the 'tidy_data_mean_std.txt' file.
-6. Read the file: tdms <- read.table("tidy_data_mean_std.txt", header = TRUE, sep = "")
-7. Now you can analysis tdms data.
+2. Copy the 'run_analysis.R' script to the 'UCI HAR Dataset' derictory. 
+3. Run the script and wait few seconds to finish processing the dataset.
+4. Open script in the RStudio or R application.
+5. Before to execute the script please install the 'dplyr' library.
+6. When Analysis FINISHed the dataset derictory contains the 'tidy_data_mean_std.txt' file.
+7. Read the file: tdms <- read.table("tidy_data_mean_std.txt", header = TRUE, sep = "")
+8. Now you can analysis tdms data.
+
+Analysis does:
+================
+1. Reads training and test dataset files.
+2. Merges the training and the test sets to create one data set.
+3. Reads features and activity labels files.
+4. Uses descriptive features names to name the featured measurements in the main data set by column position.
+5. Extracts only the measurements on the mean and standard deviation for each measurement from the main data set.
+6. Merges the subjects set to the main data set.
+7. Uses descriptive activity names to name the activities in the activity data set by ID.
+8. Merges the activity set to the main data set.
+9. From the main data set, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+10. Saves tidy data set to the 'tidy_data_mean_std.txt' file.
+11. Removes all temporary data.
 
 License:
 ========

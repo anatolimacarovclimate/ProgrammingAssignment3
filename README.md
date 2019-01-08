@@ -20,9 +20,9 @@ How run script:
 1. Download a dataset from 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the work directory.
 2. Copy the 'run_analysis.R' script to the 'UCI HAR Dataset' directory. 
-3. Run the script and wait few seconds to finish processing the data set.
-4. Open script in the RStudio or R application.
-5. Before to execute the script please install the 'dplyr' library.
+3. Open script in the RStudio or R application.
+4. Before to execute the script please install the 'dplyr' library.
+5. Run the script and wait few seconds to finish processing the data set.
 6. When Analysis FINISHed the data set directory contains the 'tidy_data_mean_std.txt' file.
 7. Read the file: tdms <- read.table("tidy_data_mean_std.txt", header = TRUE, sep = "")
 8. Now you can analysis tdms data.
